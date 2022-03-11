@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(103, 229, 252);
+  /* opacity: 0.5; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  background-image: url("./images/backimg.webp");
+}
+.card{
+  margin: 150px auto;
+  width: 600px;
+  height: 400px;
+  padding: 50px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.res{
+  color: lightseagreen;
 }
